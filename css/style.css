@@ -1,1 +1,271 @@
+@import url("https://fonts.googleapis.com/css2?family=Krona+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bungee&display=swap");
+.aL {
+  color: #b9b9b9;
+}
 
+.bg-black {
+  background-color: black;
+}
+
+.f-krona {
+  font-family: "Krona One", sans-serif;
+}
+
+.workS {
+  font-family: "Work Sans", sans-serif;
+  font-size: small;
+}
+
+.workN {
+  font-family: "Work Sans", sans-serif;
+}
+
+.f-bunge {
+  font-family: "Bungee", cursive;
+}
+
+.txtAlign {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+img.logo-onebit {
+  max-width: 240px;
+  margin-left: -10px;
+  margin-right: 20px;
+}
+@media (max-width: 405px) {
+  img.logo-onebit {
+    width: 180px;
+    margin-top: 15px;
+  }
+}
+@media (max-width: 350px) {
+  img.logo-onebit {
+    width: 150px;
+  }
+}
+
+footer {
+  height: 15vh;
+  background-color: black;
+  font-size: 13px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  color: #b9b9b9;
+}
+
+.wd-40 {
+  width: 500px;
+}
+@media (max-width: 506px) {
+  .wd-40 {
+    width: 100%;
+  }
+}
+
+.hg-80 {
+  height: 80vh;
+}
+
+img.dropdown-img {
+  height: 5vh;
+}
+
+div.sections {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: center;
+}
+div.sections section {
+  padding-top: 200px;
+}
+@media (max-width: 770px) {
+  div.sections section {
+    padding-top: 150px;
+  }
+}
+
+div.section-1 {
+  background-image: url(../img/home/01.jpg);
+}
+
+div.section-2 {
+  background-image: url(../img/home/03.jpg);
+}
+
+div.section-3 {
+  background-image: url(../img/home/02.gif);
+}
+
+div.section-4 {
+  background-image: url(../img/home/04.jpg);
+}
+
+div.sectionsF {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: center;
+}
+div.sectionsF section {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+div.sectionsF section.first {
+  height: 80%;
+}
+
+div.division {
+  height: 110%;
+  background-color: black;
+}
+
+div.sectionf-1 {
+  background-image: url(../img/falcon9/01.jpg);
+  height: 100vh;
+}
+
+div.sectionf-2 {
+  background-image: url(../img/falcon9/02.jpg);
+}
+div.sectionf-2 .descriptionSectionf-2 {
+  width: 40%;
+  margin-left: 15%;
+}
+@media (max-width: 1046px) {
+  div.sectionf-2 .descriptionSectionf-2 {
+    width: 100%;
+    margin-left: 5%;
+  }
+}
+
+.img-c {
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: center;
+}
+
+.img-c1 {
+  background-image: url(../img/falcon9/03.jpg);
+}
+
+.img-c2 {
+  background-image: url(../img/falcon9/04.jpg);
+}
+
+.img-c3 {
+  background-image: url(../img/falcon9/05.jpg);
+}
+
+.img-c4 {
+  background-image: url(../img/falcon9/06.jpg);
+}
+
+.img-c5 {
+  background-image: url(../img/falcon9/07.jpg);
+}
+
+div.sectionf-4 {
+  background-image: url(../img/falcon9/08.jpg);
+}
+
+.img-ct1 {
+  background-image: url(../img/falcon9/09.jpg);
+}
+
+.img-ct2 {
+  background-image: url(../img/falcon9/10.jpg);
+}
+
+.img-ct3 {
+  background-image: url(../img/falcon9/11.jpg);
+}
+
+.img-ct4 {
+  background-image: url(../img/falcon9/12.jpg);
+}
+
+.img-ct5 {
+  background-image: url(../img/falcon9/13.jpg);
+}
+
+.img-ct6 {
+  background-image: url(../img/falcon9/14.jpg);
+}
+
+div.sectionf-5 {
+  height: 85vh;
+}
+
+div.sectionsH {
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: center;
+}
+div.sectionsH section {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+div.sectionsH section.first {
+  height: 80%;
+}
+
+.sectionh-1 {
+  background-image: url(../img/humanFlight/01.jpg);
+  height: 100vh;
+}
+
+.sectionh-2 {
+  background-image: url(../img/humanFlight/02.jpg);
+  height: 120vh;
+}
+
+.sectionh-3 {
+  background-image: url(../img/humanFlight/03.jpg);
+  height: 100vh;
+}
+
+.sectionh-4 {
+  background-image: url(../img/humanFlight/04.jpg);
+  height: 100vh;
+}
+
+.sectionh-5 {
+  background-image: url(../img/humanFlight/05.jpg);
+  height: 100vh;
+}
+
+/*# sourceMappingURL=style.css.map */
