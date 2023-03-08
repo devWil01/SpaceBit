@@ -1,1 +1,44 @@
+div.sectionsH {
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
 
+    section {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        
+    }
+
+    section.first {
+        height: 80%;
+    }
+}
+
+.sectionh-1 {
+    background-image: url(../img/humanFlight/01.jpg);
+    height: 100vh;
+}
+
+.sectionh-2 {
+    background-image: url(../img/humanFlight/02.jpg);
+    height: 120vh;
+}
+
+.sectionh-3 {
+    background-image: url(../img/humanFlight/03.jpg);
+    height: 100vh;
+}
+
+.sectionh-4 {
+    background-image: url(../img/humanFlight/04.jpg);
+    height: 100vh;
+}
+
+.sectionh-5 {
+    background-image: url(../img/humanFlight/05.jpg);
+    height: 100vh;
+}

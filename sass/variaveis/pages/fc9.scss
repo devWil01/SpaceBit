@@ -1,0 +1,112 @@
+div.sectionsF {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+
+    section {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        
+    }
+
+    section.first {
+        height: 80%;
+    }
+}
+
+div.division {
+    height: 110%;
+    background-color: black;
+}
+
+// background images
+div.sectionf-1 {
+    background-image: url(../img/falcon9/01.jpg);
+    height: 100vh;
+}
+
+div.sectionf-2 {
+    background-image: url(../img/falcon9/02.jpg);
+
+    .descriptionSectionf-2 {
+        width: 40%;
+        margin-left: 15%;
+
+        @media (max-width: 1046px) {
+            width: 100%;
+            margin-left: 5%;
+        }
+    }
+}
+
+// bg img carrouseul seçao 3
+.img-c {
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+.img-c1 {
+    background-image: url(../img/falcon9/03.jpg);
+    
+}
+
+.img-c2 {
+    background-image: url(../img/falcon9/04.jpg);
+    
+}
+
+.img-c3 {
+    background-image: url(../img/falcon9/05.jpg);
+    
+}
+
+.img-c4 {
+    background-image: url(../img/falcon9/06.jpg);
+    
+}
+
+.img-c5 {
+    background-image: url(../img/falcon9/07.jpg);
+    
+} 
+
+div.sectionf-4 {
+    background-image: url(../img/falcon9/08.jpg);
+}
+
+// seçao 5 carrouseul img
+
+.img-ct1 {
+    background-image: url(../img/falcon9/09.jpg);
+}
+
+.img-ct2 {
+    background-image: url(../img/falcon9/10.jpg);
+}
+
+.img-ct3 {
+    background-image: url(../img/falcon9/11.jpg);
+}
+
+.img-ct4 {
+    background-image: url(../img/falcon9/12.jpg);
+}
+
+.img-ct5 {
+    background-image: url(../img/falcon9/13.jpg);
+}
+
+.img-ct6 {
+    background-image: url(../img/falcon9/14.jpg);
+}
+
+div.sectionf-5 {
+    height: 85vh;
+}

@@ -1,0 +1,40 @@
+// drop-down img
+img.dropdown-img {
+    height: 5vh;
+}
+
+// todas as seçoes
+div.sections {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+
+    section {
+        padding-top: 200px;
+
+        @media (max-width: 770px) {
+            padding-top: 150px;
+        }
+    }
+
+}
+
+// background imagem das seçoes
+div.section-1 {
+    background-image: url(../img/home/01.jpg);
+
+}
+
+div.section-2 {
+    background-image: url(../img/home/03.jpg);
+}
+
+div.section-3 {
+    background-image: url(../img/home/02.gif);
+}
+
+div.section-4 {
+    background-image: url(../img/home/04.jpg);
+}
