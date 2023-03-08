@@ -1,1 +1,31 @@
+// alpha centauri: font-family: 'f-kronaentauri', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+.f-krona {
+    font-family: 'Krona One', sans-serif;
+}
+
+// works sans: font-family: 'Work Sans', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+.workS {
+    font-family: 'Work Sans', sans-serif;
+    font-size: small;
+}
+.workN {
+    font-family: 'Work Sans', sans-serif;
+}
+
+// f-bunge font-family: 'f-bunge', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+.f-bunge {
+    font-family: 'Bungee', cursive;
+}
+
+
+// txtalign
+
+.txtAlign {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
 
